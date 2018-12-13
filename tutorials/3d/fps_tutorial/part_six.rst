@@ -162,7 +162,7 @@ In ``level_select_menu_button_pressed``, we check to see which button is pressed
 
 If the ``back`` button has been pressed, we change the currently visible panels to return to the main menu.
 
-If one of the scene changing buttons are pressed, we fist call ``set_mouse_and_joypad_sensitivity`` so the singleton (``Globals.gd``) has the values from the :ref:`HSlider
+If one of the scene changing buttons are pressed, we first call ``set_mouse_and_joypad_sensitivity`` so the singleton (``Globals.gd``) has the values from the :ref:`HSlider
 <class_HSlider>` nodes.
 Then we tell the singleton to change nodes using its ``load_new_scene`` function, passing in the file path of the scene the player has selected.
 
